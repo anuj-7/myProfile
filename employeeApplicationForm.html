@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Employee Application Form</title>
+    <link rel="shortcut icon" href="developer.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <h2>Employee Application Form</h2>
+    <Table>
+        <tbody>
+            <tr>
+                <td><label>Full Name : </label></td>
+                <td></td>
+                <td><input type="text" autofocus required maxlength="20"></td>
+            </tr>
+            <tr>
+                <td><label>Email : </label></td>
+                <td></td>
+                <td><input type="email" placeholder="abc@gmail.com"></td>
+            </tr>
+            <tr>
+                <td><label>Password : </label></td>
+                <td></td>
+                <td><input type="password" required></td>
+            </tr>
+            <tr>
+                <td><label>Contact Number : </label></td>
+                <td><label> +91 </label></td>
+                <td><input type="number" required maxlength="10"></td>
+            </tr>
+            <tr>
+                <td><label>Photo : </label></td>
+                <td></td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td><Label>Date of Birth : </Label></td>
+                <td></td>
+                <td><input type="date" required></td>
+            </tr>
+            <tr>
+                <td><label>Gender : </label></td>
+                <td></td>
+                <td><input type="radio" name="Gender"><label>Female</label>
+                    <input type="radio" name="Gender"><label>Male</label>
+                    <input type="radio" name="Gender"><label>Others</label>
+                </td>
+            </tr>
+            <tr>
+                <td><Label>Marital Status : </Label></td>
+                <td></td>
+                <td><input type="radio" name="Marital Status"><label>Yes</label>
+                    <input type="radio" name="Marital Status"><label>No</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Know Tools & Technology : </label></td>
+                <td></td>
+                <td>
+                    <input type="checkbox"><label>Angular</label>
+                    <input type="checkbox"><label>React</label>
+                    <input type="checkbox"><label>Python</label>
+                    <input type="checkbox"><label>Java</label>
+                    <input type="checkbox"><label>Jenkin</label>
+                    <input type="checkbox"><label>GIT</label>
+                    <input type="checkbox"><label>Database</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Profile : </label></td>
+                <td></td>
+                <td>
+                    <select>
+                        <option>UI Developer</option>
+                        <option>Backend Developer</option>
+                        <option>Full stack Developer</option>
+                        <option>DevOps Engineer</option>
+                        <option>Tester</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Country : </label></td>
+                <td></td>
+                <td><input type="text" value="India" readonly></td>
+            </tr>
+            <tr>
+                <td><label>Present Address</label></td>
+                <td></td>
+                <td><textarea rows="8" cols="60"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit"></td>
+                <td></td>
+                <td><input type="reset"></td>
+            </tr>
+        </tbody>
+    </Table>
+
+</body>
+
+</html>
