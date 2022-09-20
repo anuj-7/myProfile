@@ -1,3 +1,3 @@
 # myProfile
 # Technology stack : HTML
-# Tools Agile & JIRA
+# Tools Agile & JIRA - additional info
