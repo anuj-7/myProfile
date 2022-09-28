@@ -3,24 +3,32 @@
 
 <head>
     <title> My Profile </title>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         header{
             color: rgb(12, 7, 82);
             background-color: #1abc9c;
             text-align: right;
-            font-size: large;
+            font-size: large;   
         }
-        
+        span{
+            margin: 10px;
+        }
+        footer span{
+            margin: 15px;
+        }
+
         #nav_bar, .nav{
-            font-size: 22px;
-            font-weight: bold;
+            font-size: 35px;
+            font-weight: bolder;
             text-transform: uppercase;
             text-align: left;
             text-decoration: none;
-            font-family: cursive;
+            font-family: 'Amatic SC', cursive;
             background-color: #079992;
             color: aliceblue;
+            margin: 15px;
         }
 
     </style>
@@ -29,31 +37,32 @@
 
 <body>
     <header>
-        <i class="fa fa-user fa-lg" aria-hidden="true"></i> <b> Mr. Anuj Chauhan </b> &nbsp; &nbsp;&nbsp;&nbsp;
-        <i class="fa fa-phone-square fa-lg" aria-hidden="true"></i><b> +91 7776831341</b> &nbsp;&nbsp;&nbsp;&nbsp;
-        <i class="fa fa-envelope fa-lg" aria-hidden="true"></i><b> anujkumarchauhan.40@gmail.com</b> &nbsp;&nbsp;&nbsp;&nbsp;
+        <span> <i class="fa fa-user fa-lg" aria-hidden="true"></i> </span> <b> Mr. Anuj Chauhan </b>
+        <span> <i class="fa fa-phone-square fa-lg" aria-hidden="true"></i></span> <b> +91 7776831341</b>
+        <span> <i class="fa fa-envelope fa-lg" aria-hidden="true"></i></span> <b> anujkumarchauhan.40@gmail.com</b>
+
     </header>
     <hr>
     <nav id="nav_bar">
-        <a href="home.html" target="my_frame" class="nav">Home</a>&nbsp;&nbsp;&nbsp;
-        <a href="techStack.html" target="my_frame" class="nav">Tech stack</a>&nbsp;&nbsp;&nbsp;
-        <a href="collegedetails.html" target="my_frame" class="nav">College Details</a>&nbsp;&nbsp;&nbsp;
-        <a href="projectDetails.html" target="my_frame" class="nav">Project</a>&nbsp;&nbsp;&nbsp;
-        <a href="gallary.html" target="my_frame" class="nav">Gallery</a>&nbsp;&nbsp;&nbsp;
-        <a href="personalDetails.html" target="my_frame" class="nav">Personal</a>&nbsp;&nbsp;&nbsp;
+        <a href="home.html" target="my_frame" class="nav">Home</a>
+        <a href="techStack.html" target="my_frame" class="nav">Tech stack</a>
+        <a href="collegedetails.html" target="my_frame" class="nav">College Details</a>
+        <a href="projectDetails.html" target="my_frame" class="nav">Project</a>
+        <a href="gallary.html" target="my_frame" class="nav">Gallery</a>
+        <a href="personalDetails.html" target="my_frame" class="nav">Personal</a>
         <a href="employeeApplicationForm.html" target="my_frame" class="nav">Other</a>
     </nav>
     <br>
-    <iframe width="2000px" height="550px" name="my_frame" src="info.html" style="border: none;"></iframe>
+    <iframe width="1500px" height="500px" name="my_frame" src="info.html" style="border: none;"></iframe>
     <hr>
     <footer>
-        <h3>follow me on</h3>
-        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square fa-lg"
-                aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
-        <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin fa-lg"
-                aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
-        <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play fa-lg"
-                aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
+        <span> follow me on </span>
+        <span><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square fa-lg"
+            aria-hidden="true"></i></a></span>
+        <span><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin fa-lg"
+            aria-hidden="true"></i></a></span>
+        <span><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play fa-lg"
+            aria-hidden="true"></i></a></span>
     </footer>
 
 </body>
